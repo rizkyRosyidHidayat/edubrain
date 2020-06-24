@@ -20,17 +20,19 @@ Vue.component('faq-section', {
                 <div class="text-danger h5">
                   {{ item.question }}
                 </div>
-                <div 
-                  v-if="item.active"                  
-                  class="btn btn-blue btn-icon"
-                  style="width: 50px;height: 50px;font-size: 24px;">
-                  <span class="font-weight-bold">-</span>
-                </div>
-                <div 
-                  v-else
-                  class="btn btn-orange btn-icon"
-                  style="width: 50px;height: 50px;font-size: 24px;">
-                  <span class="font-weight-bold">+</span>
+                <div>
+                  <div 
+                    v-if="item.active"                  
+                    class="btn btn-blue btn-icon"
+                    style="width: 50px;height: 50px;font-size: 24px;">
+                    <span class="font-weight-bold">-</span>
+                  </div>
+                  <div 
+                    v-else
+                    class="btn btn-orange btn-icon"
+                    style="width: 50px;height: 50px;font-size: 24px;">
+                    <span class="font-weight-bold">+</span>
+                  </div>
                 </div>
               </div>
 

@@ -8,9 +8,18 @@ import '../component/brands.js'
 import '../component/app.js'
 import '../component/faq.js'
 import '../component/footer.js'
+import '../component/hidden_menu.js'
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        active: false
+    },
+    methods: {
+        showMenu(val) {
+            this.active = val
+        }
+    }
 })
 
 var header = document.querySelector('#header')

@@ -18,17 +18,27 @@ Vue.component('fixed-header', {
             {{ item.text }}
           </a>
         </div>
-        <div class="navbar-nav d-lg-none">
+        <div class="navbar-nav d-lg-none" :key="active">
           <a 
-            class="nav-item nav-link font-weight-bold" 
+            v-if="!active"
+            @click="$emit('show-menu', true)"
+            class="nav-item nav-link font-weight-bold animate__animated animate__rotateIn" 
             href="javascript:void(0)">
             <img src="icon/align_right.svg" alt="icon nav" height="30" />
+          </a>
+          <a 
+            v-else
+            @click="$emit('show-menu', false)"
+            class="nav-item nav-link font-weight-bold animate__animated animate__rotateIn" 
+            href="javascript:void(0)">
+            <img src="icon/close.svg" alt="icon nav" height="30" />
           </a>
         </div>
       </div>
     </div>
   </header>
   `,
+  props: ['active'],
   data: () => ({
     nav: [
       { text: 'Home', link: '#' },

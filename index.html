@@ -16,7 +16,7 @@
 
 <body>
 	<div id="app">
-		<fixed-header></fixed-header>
+		<fixed-header @show-menu="showMenu" :active="active"></fixed-header>
 		<header-section></header-section>
 		<banner-section></banner-section>
 		<features-section></features-section>
@@ -25,7 +25,8 @@
 		<brands-section></brands-section>
 		<app-section></app-section>
 		<faq-section></faq-section>
-		<footer-section></footer-section>		
+		<footer-section></footer-section>
+		<hidden-menu :active="active"></hidden-menu>				
 	</div>
 
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
