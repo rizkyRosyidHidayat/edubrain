@@ -3,14 +3,18 @@ Vue.component('features1-section', {
   <section class="mt-5 bg-lightblue py-5 bg-feature">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 col-sm-12 mb-sm-3">
+        <div
+          data-aos="fade-right" 
+          class="col-lg-6 col-sm-12 mb-sm-3">
           <img 
-            src="img/geometrical.webp" 
+            src="img/geometrical.PNG" 
             alt="gambar features"
             class="img-fluid"
           >
         </div>
-        <div class="col-lg-6 col-sm-12 mb-sm-3">
+        <div 
+          data-aos="fade-left" 
+          class="col-lg-6 col-sm-12 mb-sm-3">
           <div class="h1 font-weight-bold my-3">
             Simple and quick creation
           </div>

@@ -22,6 +22,8 @@ const app = new Vue({
     }
 })
 
+AOS.init();
+
 var header = document.querySelector('#header')
 
 window.onscroll = function () { scrollFunction() };
@@ -33,8 +35,6 @@ function scrollFunction() {
         } else {
             header.style.cssText = "top: -75px"
         }
-    } else {
-        header.style.cssText = "top: 0px"
     }
 }
 

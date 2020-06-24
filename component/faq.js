@@ -11,7 +11,8 @@ Vue.component('faq-section', {
         </h1>
         <div 
           v-for="(item, i) in faq" :key="i"
-          class="card border-purple mt-4 rounded-0">
+          class="card border-purple mt-4 rounded-0"
+          data-aos="fade-down" :data-aos-delay="'100'*(i)">
           <div class="card-body">
             <div class="overflow-hidden">
               <div 

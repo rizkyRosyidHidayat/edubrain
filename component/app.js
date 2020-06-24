@@ -11,15 +11,18 @@ Vue.component('app-section', {
           />
         </div>
         <div class="col-lg-6 col-md-12">
-          <div class="text-danger">
-            Checkout App Features
+          <div data-aos="fade-left">
+            <div class="text-danger">
+              Checkout App Features
+            </div>
+            <h1 class="font-weight-bold mb-5">
+              Control Everything From One Application
+            </h1>
           </div>
-          <h1 class="font-weight-bold mb-5">
-            Control Everything From One Application
-          </h1>
           <div 
             v-for="(item, i) in data" :key="i"
-            class="media mb-4">
+            class="media mb-4"
+            data-aos="fade-left" :data-aos-delay="'100'*(i+1)">
             <div 
               class="btn btn-icon"
               style="width: 80px;height: 80px;"
@@ -39,7 +42,9 @@ Vue.component('app-section', {
               </p>
             </div>
           </div>
-          <button class="btn btn-lg btn-orange px-5 rounded-pill mt-3">
+          <button 
+            data-aos="fade-down" data-aos-delay="300"
+            class="btn btn-lg btn-orange px-5 rounded-pill mt-3">
             Discover More
           </button>
         </div>

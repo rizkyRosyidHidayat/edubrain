@@ -3,7 +3,9 @@ Vue.component('testimoni-section', {
   <section class="bg-lightblue py-5 testimoni">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 col-md-12 mb-sm-5 d-sm-flex justify-content-sm-center">
+        <div 
+          data-aos="zoom-in"
+          class="col-lg-6 col-md-12 mb-sm-5 d-sm-flex justify-content-sm-center">
           <div 
             class="position-relative"
             style="width: 400px;">
@@ -21,6 +23,21 @@ Vue.component('testimoni-section', {
                 v-for="(item, i) in person" :key="i"
                 class="testi-image">
                 <img 
+                  v-if="i < 4"
+                  :src="'img/'+item.img" 
+                  alt="circle"
+                  width="70"
+                  class="rounded-circle"
+                />
+              </div>
+            </div>
+            <div 
+              class="circle-testi circle-testi-2">            
+              <div
+                v-for="(item, i) in person" :key="i"
+                class="testi-image">
+                <img 
+                  v-if="i > 3"
                   :src="'img/'+item.img" 
                   alt="circle"
                   width="70"
@@ -30,7 +47,9 @@ Vue.component('testimoni-section', {
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div 
+          data-aos="fade-down"
+          class="col-lg-6 col-md-12">
           <div class="text-danger">
             Checkout Latest Post
           </div>
@@ -113,6 +132,42 @@ Vue.component('testimoni-section', {
           consectetur in consequuntur debitis.
         `,
         img: 'testi-1-2.jpg'
+      },
+      { 
+        name: 'Name Person 5', 
+        text: `
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Incidunt sequi maiores eligendi magni minima tempore corporis, 
+          consectetur in consequuntur debitis.
+        `,
+        img: 'testi-1-2.jpg'
+      },
+      { 
+        name: 'Name Person 6', 
+        text: `
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Incidunt sequi maiores eligendi magni minima tempore corporis, 
+          consectetur in consequuntur debitis.
+        `,
+        img: 'testi-1-2.jpg'
+      },
+      { 
+        name: 'Name Person 7', 
+        text: `
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Incidunt sequi maiores eligendi magni minima tempore corporis, 
+          consectetur in consequuntur debitis.
+        `,
+        img: 'testi-1-2.jpg'
+      },
+      { 
+        name: 'Name Person 8', 
+        text: `
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Incidunt sequi maiores eligendi magni minima tempore corporis, 
+          consectetur in consequuntur debitis.
+        `,
+        img: 'testi-1-2.jpg'
       }
     ],
     changePerson: 0
@@ -120,7 +175,7 @@ Vue.component('testimoni-section', {
   methods: {
     changingPerson(operator) {
       if (operator === '+') {
-        if (this.changePerson < 4) {
+        if (this.changePerson < 8) {
           this.changePerson++
         } else {
           this.changePerson = 0
@@ -129,7 +184,7 @@ Vue.component('testimoni-section', {
         if (this.changePerson > -1) {
           this.changePerson--
         } else {
-          this.changePerson = 3
+          this.changePerson = 8
         }
       }
     }

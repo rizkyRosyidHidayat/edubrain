@@ -9,7 +9,8 @@ Vue.component('features-section', {
       <div class="row mt-5">
         <div
           v-for="(item, i) in features" :key="i"
-          class="col-lg-3 col-md-6 mb-sm-4">
+          class="w-20 col-md-6 mb-sm-4"
+          data-aos="fade-up" :data-aos-delay="'100'*(i)">
           <div class="card rounded-0">
             <div 
               style="height: 250px;"
@@ -38,7 +39,8 @@ Vue.component('features-section', {
       { text: 'Features', icon: 'search.svg', color: '90deg, #4a0e8f 0%, #b430a7 51%, #4a0e8f 100%' },
       { text: 'Features', icon: 'search.svg', color: '90deg, #4453ac 0%, #03a9db 51%, #4453ac 100%' },
       { text: 'Features', icon: 'search.svg', color: '90deg, #e41256 0%, #ffa337 51%, #e41256 100%' },
-      { text: 'Features', icon: 'search.svg', color: '90deg, #0349a6 0%, #15c27b 51%, #0349a6 100%' }
+      { text: 'Features', icon: 'search.svg', color: '90deg, #0349a6 0%, #15c27b 51%, #0349a6 100%' },
+      { text: 'Features', icon: 'search.svg', color: '90deg, #03a631 0%, #d6c10f 51%, #03a631 100%' }
     ]
   })
 })
