@@ -1,0 +1,152 @@
+*{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.fixed-header{
+  top: -75px;
+  transition: top 0.3s ease-in-out;
+}
+.banner-section{
+  background-image: url('../img/banner.jpg');
+  background-position-x: right;
+  background-position-y: -80px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  /* margin-top: -59px; */
+}
+.banner-container{
+  height: 90vh;
+}
+.btn-orange{
+  background: linear-gradient(to bottom,#ffa330,#ff9346,#ff8559,#fb7a6a,#f07379);
+  color: #fff;
+}
+.btn-blue{
+  background: linear-gradient(-179deg,#5690FF 0,#387DFF 97%);
+  color: #fff;
+}
+.btn-icon{
+  border-radius: 100%;
+  padding: 0;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-lightblue{
+  background-color: #F5FAFE;
+}
+.bg-feature{
+  background-image: url('../img/right-bg-feature.svg'), url('../img/left-bg-feature.svg');
+  background-position-x: -250px, 1100px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.testimoni{
+  background-image: url('../img/map.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.arrow-navigator{
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.brands{
+  background-image: linear-gradient(90deg, #4453ac 0%, #03a9db 100%);
+}
+.app{
+  background-image: url('../img/cta-1-shape-1.png'), url('../img/cta-1-shape-2.png');
+  background-position-x: 0, 1120px;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+.title-question{
+  cursor: pointer;
+}
+.border-purple{
+  border-color: #6301d3 !important;
+}
+.faq{
+  background-image: url('../img/faq-shape-2.png');
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.circle-testi{
+  background-image: url('../img/circle.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testi-active{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.testi-image{
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+}
+.testi-image:nth-child(1){
+  top: -25px;
+}
+.testi-image:nth-child(2){
+  right: -25px;
+}
+.testi-image:nth-child(3){
+  bottom: -25px;
+}
+.testi-image:nth-child(4){
+  left: -25px;
+}
+.answer{
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0px;
+}
+.answer.active{
+  max-height: 100%;
+  margin-top: 16px;
+}
+footer{
+  background-color: #4453ac;
+}
+.list-link{ padding: 20px; }
+.list-link > li{
+  list-style-image: url('../icon/chevron_right.svg');
+}
+.footer-copyright{
+  background-color: #364495;
+}
+
+/* responsive */
+@media screen and (max-width: 1100px){
+  .fixed-header{
+    top: 0px;
+  }
+}
+@media screen and (max-width: 990px){
+  .banner-section{
+    background-image: none;
+  }
+  .banner-container{
+    height: auto;
+    padding-top: 100px;
+  }
+  .bg-feature{
+    background-position-x: -250px, 800px;
+  }
+}
