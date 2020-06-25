@@ -20,9 +20,47 @@
   background: linear-gradient(to bottom,#ffa330,#ff9346,#ff8559,#fb7a6a,#f07379);
   color: #fff;
 }
+.animate-btn-orange{
+  animation-name: btn_orange;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  border: 0;
+  box-shadow: none;
+}
+@keyframes btn_orange{
+  0%{
+    box-shadow: none;
+  }
+  100%{
+    box-shadow: 0 0 0 7px rgba(255, 157, 1, 0.2);
+  }
+  100%{
+    box-shadow: 0 0 0 7px rgba(255, 157, 1, 0.2), 0 0 0 14px rgba(255, 157, 1, 0.2);
+  }
+}
 .btn-blue{
   background: linear-gradient(-179deg,#5690FF 0,#387DFF 97%);
   color: #fff;
+}
+.animate-btn-blue{
+  animation-name: btn_blue;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  border: 0;
+  box-shadow: none;
+}
+@keyframes btn_blue{
+  0%{
+    box-shadow: none;
+  }
+  100%{
+    box-shadow: 0 0 0 7px rgba(0, 105, 217, 0.2);
+  }
+  100%{
+    box-shadow: 0 0 0 7px rgba(0, 105, 217, 0.2), 0 0 0 14px rgba(0, 105, 217, 0.2);
+  }
 }
 .btn-icon{
   border-radius: 100%;

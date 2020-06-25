@@ -17,7 +17,7 @@ Vue.component('banner-section', {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Perspiciatis veritatis ratione porro.
           </p>
-          <button type="button" class="btn btn-lg rounded-pill btn-orange px-5">
+          <button type="button" class="btn btn-lg rounded-pill btn-orange px-5 animate-btn-orange">
             <span>GET STARTED</span>
           </button>
         </div>

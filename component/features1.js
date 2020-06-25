@@ -24,7 +24,7 @@ Vue.component('features1-section', {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Perspiciatis veritatis ratione porro.
           </p>
-          <button type="button" class="btn btn-lg rounded-pill btn-blue px-5">
+          <button type="button" class="btn btn-lg rounded-pill btn-blue px-5 animate-btn-blue">
             <span>START CREATING</span>
           </button>
         </div>
