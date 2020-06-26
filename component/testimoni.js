@@ -5,14 +5,13 @@ Vue.component('testimoni-section', {
       <div class="row align-items-center">
         <div 
           data-aos="zoom-in"
-          class="col-lg-6 col-md-12 mb-sm-5 d-flex justify-content-center">
+          class="col-lg-6 col-md-12 mb-5 d-flex justify-content-center">
           <div 
             class="position-relative circle-testi-animate">
             <div class="testi-active">
               <img 
                 :src="'img/'+person[changePerson].img" 
                 alt="circle"
-                width="120"
                 class="rounded-circle testi-image-animate"
                 :key="changePerson"
               />
@@ -25,7 +24,6 @@ Vue.component('testimoni-section', {
                   v-if="i < 4"
                   :src="'img/'+item.img" 
                   alt="circle"
-                  width="70"
                   class="rounded-circle"
                 />
               </div>
@@ -39,7 +37,6 @@ Vue.component('testimoni-section', {
                   v-if="i > 3"
                   :src="'img/'+item.img" 
                   alt="circle"
-                  width="70"
                   class="rounded-circle"
                 />
               </div>
