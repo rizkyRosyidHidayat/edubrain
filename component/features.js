@@ -1,6 +1,7 @@
 Vue.component('features-section', {
   template: `
-  <section class="mt-5">
+  <section class="d-none d-lg-block pb-5 bg-lightblue">
+    <img src="img/img-top-features.svg" alt="top feature" class="w-100" />
     <div class="container">
       <p class="text-center">
         <span class="text-danger">Checkout Apps Features</span><br>
@@ -15,14 +16,13 @@ Vue.component('features-section', {
             <div 
               style="height: 250px;"
               class="card-body d-flex justify-content-center align-items-center flex-column">
-              <button 
-                :style="'background-image: linear-gradient('+item.color+');'"
+              <button
                 type="button" 
-                class="btn btn-icon">
-                <img 
-                  :src="'icon/'+item.icon" 
-                  width="60" alt="icon features"
-                >
+                :class="'btn btn-icon icon-feature-'+i">
+                <i 
+                  class="text-white display-3"
+                  :class="item.icon"
+                ></i>
               </button>
               <div class="font-weight-bold h5 mt-3">
                 {{ item.text }}
@@ -36,11 +36,11 @@ Vue.component('features-section', {
   `,
   data: () => ({
     features: [
-      { text: 'Features', icon: 'search.svg', color: '90deg, #4a0e8f 0%, #b430a7 51%, #4a0e8f 100%' },
-      { text: 'Features', icon: 'search.svg', color: '90deg, #4453ac 0%, #03a9db 51%, #4453ac 100%' },
-      { text: 'Features', icon: 'search.svg', color: '90deg, #e41256 0%, #ffa337 51%, #e41256 100%' },
-      { text: 'Features', icon: 'search.svg', color: '90deg, #0349a6 0%, #15c27b 51%, #0349a6 100%' },
-      { text: 'Features', icon: 'search.svg', color: '90deg, #03a631 0%, #d6c10f 51%, #03a631 100%' }
+      { text: 'Free Setup', icon: 'zimed-icon-responsive'},
+      { text: 'Quick Accsess', icon: 'zimed-icon-computer-graphic'},
+      { text: 'Manage Users', icon: 'zimed-icon-development1'},
+      { text: 'Fully Secyred', icon: 'zimed-icon-development'},
+      { text: 'Daily Update', icon: 'zimed-icon-development' }
     ]
   })
 })

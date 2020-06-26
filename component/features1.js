@@ -1,6 +1,6 @@
 Vue.component('features1-section', {
   template: `
-  <section class="mt-5 bg-lightblue py-5 bg-feature">
+  <section class="bg-lightblue py-5 bg-feature mt-sm-5 mt-lg-0">
     <div class="container">
       <div class="row align-items-center">
         <div

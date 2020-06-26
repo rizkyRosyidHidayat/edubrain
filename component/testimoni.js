@@ -7,14 +7,14 @@ Vue.component('testimoni-section', {
           data-aos="zoom-in"
           class="col-lg-6 col-md-12 mb-sm-5 d-sm-flex justify-content-sm-center">
           <div 
-            class="position-relative"
+            class="position-relative circle-testi-animate"
             style="width: 400px;">
             <div class="testi-active">
               <img 
                 :src="'img/'+person[changePerson].img" 
                 alt="circle"
                 width="120"
-                class="rounded-circle animate__animated animate__flipInY"
+                class="rounded-circle testi-image-animate"
                 :key="changePerson"
               />
             </div>

@@ -81,6 +81,39 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.icon-feature-0{
+  background-image: linear-gradient(90deg, #b430a7 0%, #4a0e8f 100%);
+}
+.icon-feature-0:hover{
+  background-image: linear-gradient(90deg, #4a0e8f 0%, #b430a7 100%);
+}
+.icon-feature-1{
+  background-image: linear-gradient(90deg, #03a9db 0%, #4453ac 100%);
+}
+.icon-feature-1:hover{
+  background-image: linear-gradient(90deg, #4453ac 0%, #03a9db 100%);
+}
+.icon-feature-2{
+  background-image: linear-gradient(90deg, #ffa337 0%, #e41256 100%);
+}
+.icon-feature-2:hover{
+  background-image: linear-gradient(90deg, #e41256 0%, #ffa337 100%);
+}
+.icon-feature-3{
+  background-image: linear-gradient(90deg, #15c27b 0%, #0349a6 100%);
+}
+.icon-feature-3:hover{
+  background-image: linear-gradient(90deg, #0349a6 0%, #15c27b 100%);
+}
+.icon-feature-4{
+  background-image: linear-gradient(90deg, #d6c10f 0%, #03a631 100%);
+}
+.icon-feature-4:hover{
+  background-image: linear-gradient(90deg, #03a631 0%, #d6c10f 100%);
+}
+[class*='icon-feature-']{
+  transition: all 0.3s ease-in-out;
+}
 .testimoni{
   background-image: url('../img/map.png');
   background-position: center;
@@ -129,7 +162,8 @@
 .circle-testi-2{
   top: 0;
   position: absolute;
-  transform: rotate(45deg);  
+  transform: rotate(45deg); 
+  background-image: none; 
 }
 .circle-testi-2 .testi-image{
   transform: rotate(-45deg);
@@ -147,6 +181,18 @@
   display: inline-block;
   vertical-align: middle;
   z-index: 99;
+}
+.testi-image-animate{
+  animation-name: zoomIn;
+  animation-duration: 800ms;
+}
+@keyframes zoomIn{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 .testi-image:nth-child(1){
   top: -25px;
@@ -171,6 +217,26 @@
 }
 .testi-image:nth-child(8){
   left: -25px;
+}
+.circle-testi-animate{
+  animation-name: rotating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes rotating{
+  0%{
+    transform: rotate(-5deg);
+  }
+  25%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(5deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
 }
 .answer{
   transition: max-height 0.3s ease-in-out;

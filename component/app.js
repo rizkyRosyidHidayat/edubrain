@@ -27,11 +27,10 @@ Vue.component('app-section', {
               class="btn btn-icon"
               style="width: 80px;height: 80px;"
               :style="'background-image: linear-gradient('+item.color+');'">
-              <img 
-                :src="'icon/'+item.icon" 
-                alt="icon features" 
-                width="40"
-              />
+              <i
+                class="display-4 text-white"
+                :class="item.icon"
+              ></i>
             </div>
             <div class="media-body ml-3">
               <h5 class="mt-0 mb-3 font-weight-bold">
@@ -56,7 +55,7 @@ Vue.component('app-section', {
     data: [
       {
         title: 'Title Feature',
-        icon: 'search.svg',
+        icon: 'zimed-icon-strategy',
         text: `
           Cras sit amet nibh libero, in gravida nulla. 
           Nulla vel metus scelerisque ante sollicitudin.
@@ -65,7 +64,7 @@ Vue.component('app-section', {
       },
       {
         title: 'Title Feature',
-        icon: 'search.svg',
+        icon: 'zimed-icon-training',
         text: `
           Cras sit amet nibh libero, in gravida nulla. 
           Nulla vel metus scelerisque ante sollicitudin.
