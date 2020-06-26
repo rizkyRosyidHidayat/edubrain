@@ -223,6 +223,7 @@
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  width: 400px;
 }
 @keyframes rotating{
   0%{
@@ -291,5 +292,14 @@ footer{
   }
   .bg-feature{
     background-position-x: -250px, 800px;
+  }
+}
+@media screen and (max-width: 500px){
+  .circle-testi{
+    width: 300px;
+    height: 300px;
+  }
+  .circle-testi-animate{
+    width: 300px;
   }
 }

@@ -1,7 +1,7 @@
 Vue.component('features1-section', {
   template: `
   <section class="bg-lightblue py-5 bg-feature mt-sm-5 mt-lg-0">
-    <div class="container">
+    <div class="container overflow-hidden">
       <div class="row align-items-center">
         <div
           data-aos="fade-right" 

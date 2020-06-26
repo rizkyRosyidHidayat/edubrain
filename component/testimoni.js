@@ -5,10 +5,9 @@ Vue.component('testimoni-section', {
       <div class="row align-items-center">
         <div 
           data-aos="zoom-in"
-          class="col-lg-6 col-md-12 mb-sm-5 d-sm-flex justify-content-sm-center">
+          class="col-lg-6 col-md-12 mb-sm-5 d-flex justify-content-center">
           <div 
-            class="position-relative circle-testi-animate"
-            style="width: 400px;">
+            class="position-relative circle-testi-animate">
             <div class="testi-active">
               <img 
                 :src="'img/'+person[changePerson].img" 

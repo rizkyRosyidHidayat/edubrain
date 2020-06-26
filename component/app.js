@@ -1,6 +1,6 @@
 Vue.component('app-section', {
   template: `
-  <section class="mt-5 app">
+  <section class="mt-5 app overflow-hidden">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-6 d-none d-lg-block">
