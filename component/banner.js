@@ -4,7 +4,7 @@ Vue.component('banner-section', {
     <div class="container">
       <div 
         class="row align-items-center banner-container">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12 mb-5">
           <div class="btn btn-primary btn-sm">
             <span class="h5 font-weight-bold">Video Maker Online</span>
           </div>

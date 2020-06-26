@@ -59,6 +59,10 @@ var swiper_brand = new Swiper('.swiper-container-brands', {
         clickable: true,
     },
     breakpoints: {
+        500: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
         640: {
             slidesPerView: 3,
             spaceBetween: 20,

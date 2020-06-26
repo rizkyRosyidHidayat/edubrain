@@ -310,6 +310,9 @@ footer{
   }
 }
 @media screen and (max-width: 400px){
+  .img-brand{
+    width: 100px;
+  }
   .testi-active img{
     width: 60px;
   }

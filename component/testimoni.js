@@ -1,6 +1,6 @@
 Vue.component('testimoni-section', {
   template: `
-  <section class="bg-lightblue py-5 testimoni">
+  <section class="bg-lightblue py-5 testimoni overflow-hidden">
     <div class="container">
       <div class="row align-items-center">
         <div 

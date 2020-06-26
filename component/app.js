@@ -43,7 +43,7 @@ Vue.component('app-section', {
           </div>
           <button 
             data-aos="fade-down" data-aos-delay="300"
-            class="btn btn-lg btn-orange px-5 rounded-pill mt-3 animate-btn-orange">
+            class="btn btn-lg btn-orange px-5 rounded-pill mt-3 animate-btn-orange mb-5">
             Discover More
           </button>
         </div>
