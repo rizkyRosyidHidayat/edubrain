@@ -109,7 +109,7 @@ Vue.component('testimoni-section', {
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'testi-1-3.jpg'
       },
       { 
         name: 'Name Person 3', 
@@ -118,7 +118,7 @@ Vue.component('testimoni-section', {
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'testi-1-4.jpg'
       },
       { 
         name: 'Name Person 4', 
@@ -127,7 +127,7 @@ Vue.component('testimoni-section', {
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'testi-1-5.jpg'
       },
       { 
         name: 'Name Person 5', 
@@ -136,7 +136,7 @@ Vue.component('testimoni-section', {
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'testi-1-1.jpg'
       },
       { 
         name: 'Name Person 6', 
@@ -145,7 +145,7 @@ Vue.component('testimoni-section', {
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'testi-1-6.jpg'
       },
       { 
         name: 'Name Person 7', 
@@ -154,7 +154,7 @@ Vue.component('testimoni-section', {
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'testi-1-4.jpg'
       },
       { 
         name: 'Name Person 8', 
@@ -163,7 +163,7 @@ Vue.component('testimoni-section', {
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'testi-1-5.jpg'
       }
     ],
     changePerson: 0

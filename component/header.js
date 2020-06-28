@@ -1,8 +1,8 @@
 Vue.component('header-section', {
   template: `
   <header class="position-absolute w-100 d-none d-lg-block position-relative">
-    <div class="navbar navbar-light navbar-expand-md">
-      <div class="container">
+    <div class="navbar navbar-light navbar-expand-md justify-content-between">
+      
         <a href="#" class="navbar-brand">
           <img 
             src="img/edubrain.png" 
@@ -11,27 +11,34 @@ Vue.component('header-section', {
           >
         </a>
         <div 
-          style="top: 0px;left: 40%;"
+          style="top: 0px;left: 42%;"
           class="position-absolute">
           <img src="img/top_100.svg" alt="top 100" />
         </div>
-        <div class="navbar-nav">
+        <div class="navbar-nav align-items-center">
           <a 
             v-for="item in nav" :key="item.text"
             class="nav-item nav-link font-weight-bold text-white" 
             :href="item.link">
             {{ item.text }}
           </a>
+          <a
+            class="nav-item nav-link">
+            <div class="btn btn-primary rounded-pill btn-sm font-weight-bold">
+              Try free
+            </div>
+          </a>
         </div>
-      </div>
+      
     </div>
   </header>
   `,
   data: () => ({
     nav: [
       { text: 'Home', link: '#' },
-      { text: 'Features', link: '#' },
-      { text: 'Pricing', link: '#' }
+      { text: 'Tentang Kami', link: '#' },
+      { text: 'Layanan', link: '#' },
+      { text: 'Call me', link: '#' }
     ]
   })
 })

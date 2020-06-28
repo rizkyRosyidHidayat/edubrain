@@ -16,16 +16,16 @@ Vue.component('features1-section', {
           data-aos="fade-left" 
           class="col-lg-6 col-sm-12 mb-sm-3">
           <div class="h1 font-weight-bold my-3">
-            Simple and quick creation
+            Unggul & Berpengalaman
           </div>
           <p 
             class="border-warning p-3 mb-5"
             style="border-left: 3px solid;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Perspiciatis veritatis ratione porro.
+            Tim Develop Aplikasi yang sudah terbukti sukses di TryOut level Nasional.
+             Ribuan sekolah & ratusan ribu peserta tryout serentak
           </p>
           <button type="button" class="btn btn-lg rounded-pill btn-blue px-5 animate-btn-blue mb-5">
-            <span>START CREATING</span>
+            <span>MULAI SEKARANG</span>
           </button>
         </div>
       </div>

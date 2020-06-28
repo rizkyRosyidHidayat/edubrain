@@ -71,7 +71,7 @@ Vue.component('footer-section', {
     <div class="footer-copyright">
       <div class="container">
         <div class="d-flex justify-content-between py-4 mt-5">
-          <div>Copyright &copy; {{ new Date().getUTCFullYear() }} Edubrain</div>
+          <div>Copyright &copy; {{ new Date().getUTCFullYear() }} Edubrain [PT.EDU INOVASI INDONESIA]</div>
           <div>
             <a href="" class="text-white">Help Desk / Privacy Policy</a>
           </div>						
@@ -111,21 +111,21 @@ Vue.component('footer-section', {
         icon: 'geo.svg',
         title: 'ADDRESS',
         desc: `
-          Description Address
+          Jl. Ketileng Indah Raya, Mutiara Gading A7, Kota Semarang, Jawa Tengah
         `
       },
       {
         icon: 'phone.svg',
         title: 'PHONE',
         desc: `
-          Description Phone
+          085-7272-44-000
         `
       },
       {
         icon: 'mail.svg',
         title: 'EMAIL',
         desc: `
-          Description Email
+          admin@edubrain.id
         `
       },
     ]

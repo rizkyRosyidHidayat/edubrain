@@ -4,8 +4,8 @@ Vue.component('features-section', {
     <img src="img/img-top-features.svg" alt="top feature" class="w-100" />
     <div class="container">
       <p class="text-center">
-        <span class="text-danger">Checkout Apps Features</span><br>
-        <span class="h1 font-weight-bold">The Only App You'll Need</span>
+        <span class="text-danger">Layanan TryOut & Assessment</span><br>
+        <span class="h1 font-weight-bold">Mewujudkan sekolah yang berkualitas</span>
       </p>
       <div class="row mt-5">
         <div
@@ -24,7 +24,10 @@ Vue.component('features-section', {
                   :class="item.icon"
                 ></i>
               </button>
-              <div class="font-weight-bold h5 mt-3">
+              <div class="h5 mt-3">
+                {{ counts[item.count] }}+
+              </div>
+              <div class="font-weight-bold h5">
                 {{ item.text }}
               </div>
             </div>
@@ -36,11 +39,38 @@ Vue.component('features-section', {
   `,
   data: () => ({
     features: [
-      { text: 'Free Setup', icon: 'zimed-icon-responsive'},
-      { text: 'Quick Accsess', icon: 'zimed-icon-computer-graphic'},
-      { text: 'Manage Users', icon: 'zimed-icon-development1'},
-      { text: 'Fully Secyred', icon: 'zimed-icon-development'},
-      { text: 'Daily Update', icon: 'zimed-icon-development' }
-    ]
-  })
+      { text: 'AKM', icon: 'zimed-icon-responsive', count: 'akm'},
+      { text: 'UTBK', icon: 'zimed-icon-computer-graphic', count: 'utbk'},
+      { text: 'PAS', icon: 'zimed-icon-development1', count: 'pas'},
+      { text: 'PAT', icon: 'zimed-icon-development', count: 'pat'},
+      { text: 'TOEIC', icon: 'zimed-icon-development', count: 'toeic'},
+    ],
+    counts: {
+      'akm': 0,
+      'utbk': 0,
+      'pas': 0,
+      'pat': 0,
+      'toeic': 0
+    }
+  }),
+
+  mounted() {
+    this.counter('akm', 300)  
+    this.counter('utbk', 300)
+    this.counter('pas', 300)
+    this.counter('pat', 300)
+    this.counter('toeic', 300)
+  },
+
+  methods: {
+    counter(index, end) {
+      const vm = this
+      var timer = setInterval(function() {
+          vm.counts[index]++;
+          if (vm.counts[index] == end) {
+            clearInterval(timer);
+          }
+      }, 50);
+    }
+  },
 })

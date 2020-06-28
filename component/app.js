@@ -44,7 +44,7 @@ Vue.component('app-section', {
           <button 
             data-aos="fade-down" data-aos-delay="300"
             class="btn btn-lg btn-orange px-5 rounded-pill mt-3 animate-btn-orange mb-5">
-            Discover More
+            KIRIM PENAWARAN!
           </button>
         </div>
       </div>
@@ -54,7 +54,7 @@ Vue.component('app-section', {
   data: () => ({
     data: [
       {
-        title: 'Title Feature',
+        title: 'TryOut AKM',
         icon: 'zimed-icon-strategy',
         text: `
           Cras sit amet nibh libero, in gravida nulla. 
@@ -63,7 +63,16 @@ Vue.component('app-section', {
         color: '90deg, #4a0e8f 0%, #b430a7 51%, #4a0e8f 100%'
       },
       {
-        title: 'Title Feature',
+        title: 'TryOut UTBK',
+        icon: 'zimed-icon-training',
+        text: `
+          Cras sit amet nibh libero, in gravida nulla. 
+          Nulla vel metus scelerisque ante sollicitudin.
+        `,
+        color: '90deg, #4453ac 0%, #03a9db 51%, #4453ac 100%'
+      },
+      {
+        title: 'Ujian Satuan Pendidikan',
         icon: 'zimed-icon-training',
         text: `
           Cras sit amet nibh libero, in gravida nulla. 

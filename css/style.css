@@ -1,6 +1,7 @@
 *{
   font-family: 'Montserrat', sans-serif !important;
 }
+html{ scroll-behavior: smooth; }
 #header{
   top: -75px;
   transition: top 0.3s ease-in-out;
@@ -275,6 +276,17 @@ footer{
 .hidden-menu.active{
   transform: translateX(0);
 }
+#btnToTop{
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+  right: 16px;
+  bottom: -60px;
+  transition: bottom 0.2s ease-in-out;
+}
+.hidden-on-lg{
+  display: none;
+}
 
 /* responsive */
 @media screen and (min-width: 990px){
@@ -286,6 +298,12 @@ footer{
 @media screen and (max-width: 1100px){
   #header{
     top: 0px;
+  }
+  .hidden-on-lg{
+    display: block;
+  }
+  .visible-on-lg{
+    display: none;
   }
 }
 @media screen and (max-width: 990px){

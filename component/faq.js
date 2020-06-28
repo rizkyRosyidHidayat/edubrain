@@ -52,16 +52,15 @@ Vue.component('faq-section', {
   data: () => ({
     faq: [
       {
-        question: 'Pre and post launch mobile app marketing pitfalls to avoid',
+        question: 'Bagaimana cara bekerja sama dalam kegiatan Layanan Edubrain?',
         answer: `
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Labore, illo eligendi? Tempore repellat sequi sunt saepe, 
-          blanditiis minima sit, accusantium soluta sed ratione.
+        Pihak sekolah dapat menghubungi admin atau call centre Edubrain di website ini. 
+        Admin Edubrain akan menghubungi & mengirimkan proposal kerja sama kegiatan.
         `,
         active: false
       },
       {
-        question: 'Pre and post launch mobile app marketing pitfalls to avoid',
+        question: 'Apa keunggulan Layanan Edubrain, yang bisa meningkatkan mutu pendidikan di sekolah?',
         answer: `
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
           Labore, illo eligendi? Tempore repellat sequi sunt saepe, 
