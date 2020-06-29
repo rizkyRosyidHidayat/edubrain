@@ -49,10 +49,10 @@ Vue.component('testimoni-section', {
           data-aos="fade-down"
           class="col-lg-6 col-md-12">
           <div class="text-danger">
-            Checkout Latest Post
+            Edubrain Core Values
           </div>
           <h1 class="font-weight-bold">
-            What Our Clients Are Saying
+            Joint inspiration, create quality schools
           </h1>
           <div class="position-relative swiper-container">
             <div class="swiper-wrapper">
@@ -98,10 +98,7 @@ Vue.component('testimoni-section', {
       {  
         name: 'Rudi Yanto', 
         text: `
-          LoremSS ipsum dolor sit amet consectetur adipisicing elit. 
-          Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis. 
-
+        Edubrain memberi layanan terbaik & profesional mewujudkan sekolah yang unggul dan berkualitas. Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi. 
         `,
         img: 'rudi.png'
       },

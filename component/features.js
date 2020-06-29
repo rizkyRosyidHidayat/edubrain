@@ -1,6 +1,7 @@
 Vue.component('features-section', {
   template: `
-  <section class="d-none d-lg-block pb-5 bg-lightblue">
+  <section 
+    class="d-none d-lg-block pb-5 bg-lightblue">
     <img src="img/img-top-features.svg" alt="top feature" class="w-100" />
     <div class="container">
       <p class="text-center">

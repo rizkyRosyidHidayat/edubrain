@@ -7,7 +7,7 @@ Vue.component('banner-section', {
       <div 
         class="row align-items-center banner-container">
         <div class="col-lg-6 col-md-12 mb-5">
-          <div class="btn btn-primary btn-sm">
+          <div class="btn btn-primary btn-sm my-5">
             <span class="h5 font-weight-bold">Mitra Terbaik Sekolah</span>
           </div>
           <div class="h1 font-weight-bold my-3">
@@ -21,7 +21,7 @@ Vue.component('banner-section', {
             menyiapkan langkah-langkah strategis 
             peningkatan mutu pendidikan di Indonesia
           </p>
-          <a href=" ">
+          <a href="https://api.whatsapp.com/send?phone=6285727244000" target="_blank">
             <button type="button" class="btn btn-lg rounded-pill btn-orange px-5 animate-btn-orange">
               <span>HUBUNGI KAMI</span>
             </button>

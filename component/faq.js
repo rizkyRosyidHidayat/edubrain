@@ -62,18 +62,14 @@ Vue.component('faq-section', {
       {
         question: 'Apa keunggulan Layanan Edubrain, yang bisa meningkatkan mutu pendidikan di sekolah?',
         answer: `
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Labore, illo eligendi? Tempore repellat sequi sunt saepe, 
-          blanditiis minima sit, accusantium soluta sed ratione.
+        Beberapa program unggulan Edubrain, antara lain: TryOut AKM, TryOut UTBK, TOEIC, Ujian Satuan Pendidikan.
         `,
         active: false
       },
       {
-        question: 'Pre and post launch mobile app marketing pitfalls to avoid',
+        question: 'Kapan bisa dimulai kegiatan TryOut atau Layanan Edubrain lainnya?',
         answer: `
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Labore, illo eligendi? Tempore repellat sequi sunt saepe, 
-          blanditiis minima sit, accusantium soluta sed ratione.
+        Pelaksanaan Kegiatan TryOut atau Layanan Edubrain lainnya, menyesuaikan jadwal & agenda kegiatan sekolah.
         `,
         active: false
       }

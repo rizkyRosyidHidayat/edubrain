@@ -43,7 +43,7 @@ Vue.component('app-section', {
               </p>
             </div>
           </div>
-          <a href=" ">
+          <a href="https://api.whatsapp.com/send?phone=6285727244000" target="_blank">
             <button 
               data-aos="fade-down" data-aos-delay="300"
               class="btn btn-lg btn-orange px-5 rounded-pill mt-3 animate-btn-orange mb-5">

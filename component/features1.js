@@ -24,7 +24,7 @@ Vue.component('features1-section', {
             Tim Develop Aplikasi yang sudah terbukti sukses di TryOut level Nasional.
              Ribuan sekolah & ratusan ribu peserta tryout serentak
           </p>
-          <a href=" ">
+          <a href="https://api.whatsapp.com/send?phone=6285727244000" target="_blank">
             <button type="button" class="btn btn-lg rounded-pill btn-blue px-5 animate-btn-blue mb-5">
               <span>MULAI SEKARANG</span>
             </button>

@@ -20,6 +20,7 @@ Vue.component('fixed-header', {
             {{ item.text }}
           </a>
           <a
+            href="https://api.whatsapp.com/send?phone=6285727244000"
             class="nav-item nav-link">
             <div class="btn btn-primary rounded-pill btn-sm font-weight-bold">
               Call Me

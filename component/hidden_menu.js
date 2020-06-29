@@ -11,6 +11,7 @@ Vue.component('hidden-menu', {
             {{ item.text }}
           </a>
           <a 
+            href="https://api.whatsapp.com/send?phone=6285727244000"
             class="nav-link pl-0" href="#">
             <div class="btn btn-primary rounded-pill font-weight-bold">
               <span class="h3">Call Me</span>
