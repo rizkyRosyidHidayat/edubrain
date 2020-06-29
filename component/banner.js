@@ -21,9 +21,11 @@ Vue.component('banner-section', {
             menyiapkan langkah-langkah strategis 
             peningkatan mutu pendidikan di Indonesia
           </p>
-          <button type="button" class="btn btn-lg rounded-pill btn-orange px-5 animate-btn-orange">
-            <span>HUBUNGI KAMI</span>
-          </button>
+          <a href=" ">
+            <button type="button" class="btn btn-lg rounded-pill btn-orange px-5 animate-btn-orange">
+              <span>HUBUNGI KAMI</span>
+            </button>
+          </a>
         </div>
         <div class="col-6 d-none d-lg-block">
           <div class="d-flex justify-content-center">
