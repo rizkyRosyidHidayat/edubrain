@@ -13,10 +13,12 @@ Vue.component('app-section', {
         <div class="col-lg-6 col-md-12">
           <div data-aos="fade-left">
             <div class="text-danger">
-              Checkout App Features
+              Fitur & Layanan
             </div>
             <h1 class="font-weight-bold mb-5">
-              Control Everything From One Application
+              Platform Edubrain dengan fitur, analisis & benefit terlengkap!
+
+
             </h1>
           </div>
           <div 
@@ -57,8 +59,7 @@ Vue.component('app-section', {
         title: 'TryOut AKM',
         icon: 'zimed-icon-strategy',
         text: `
-          Cras sit amet nibh libero, in gravida nulla. 
-          Nulla vel metus scelerisque ante sollicitudin.
+           TryOut Asesmen Kompetensi Minimum sebagai pemetaan capaian pendidikan berdasarkan kemampuan minimal siswa.
         `,
         color: '90deg, #4a0e8f 0%, #b430a7 51%, #4a0e8f 100%'
       },
@@ -66,20 +67,19 @@ Vue.component('app-section', {
         title: 'TryOut UTBK',
         icon: 'zimed-icon-training',
         text: `
-          Cras sit amet nibh libero, in gravida nulla. 
-          Nulla vel metus scelerisque ante sollicitudin.
+          TryOut Ujian Tulis Berbasis Komputer [UTBK] SBMPTN/MANDIRI, dengan fitur dan fasilitas yang lengkap.
         `,
         color: '90deg, #4453ac 0%, #03a9db 51%, #4453ac 100%'
       },
       {
         title: 'Ujian Satuan Pendidikan',
-        icon: 'zimed-icon-training',
+        icon: 'zimed-icon-development',
         text: `
-          Cras sit amet nibh libero, in gravida nulla. 
-          Nulla vel metus scelerisque ante sollicitudin.
+          Aplikasi CBT Semi Online/Full Online, untuk pelaksanaan penilaian hasil belajar oleh Satuan Pendidikan.
         `,
-        color: '90deg, #4453ac 0%, #03a9db 51%, #4453ac 100%'
+        color: '90deg, #299A9D 0%, #b430a7 51%, #299A9D 100%'
       },
+
     ]
   })
 })

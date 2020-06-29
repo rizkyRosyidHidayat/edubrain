@@ -13,7 +13,7 @@ Vue.component('hidden-menu', {
           <a 
             class="nav-link pl-0" href="#">
             <div class="btn btn-primary rounded-pill font-weight-bold">
-              <span class="h3">Try free</span>
+              <span class="h3">Call Me</span>
             </div>
           </a>
         </nav>
@@ -25,8 +25,7 @@ Vue.component('hidden-menu', {
     nav: [
       { text: 'Home', link: '#' },
       { text: 'Tentang Kami', link: '#' },
-      { text: 'Layanan', link: '#' },
-      { text: 'Call me', link: '#' }
+      { text: 'Layanan', link: '#' }
     ]
   })
 })

@@ -22,7 +22,7 @@ Vue.component('fixed-header', {
           <a
             class="nav-item nav-link">
             <div class="btn btn-primary rounded-pill btn-sm font-weight-bold">
-              Try free
+              Call Me
             </div>
           </a>
         </div>
@@ -51,8 +51,7 @@ Vue.component('fixed-header', {
     nav: [
       { text: 'Home', link: '#' },
       { text: 'Tentang Kami', link: '#' },
-      { text: 'Layanan', link: '#' },
-      { text: 'Call me', link: '#' }
+      { text: 'Layanan', link: '#' }
     ]
   })
 })

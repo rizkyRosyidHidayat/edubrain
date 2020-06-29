@@ -16,15 +16,16 @@ Vue.component('brands-section', {
   `,
   data: () => ({
     brand: [
-      'brand-1-6.png',
-      'brand-1-6.png',
-      'brand-1-6.png',
-      'brand-1-6.png',
-      'brand-1-6.png',
-      'brand-1-6.png',
-      'brand-1-6.png',
-      'brand-1-6.png',
-      'brand-1-6.png',
+      'aksi.png',
+      'bar.png',
+      'bcs.png',
+      'brainlogic.png',
+      'cc.png',
+      'mtr.png',
+      'p3d.png',
+      'pm.png',
+      'psd.png',
+      'tbs.png',
     ]
   })
 })

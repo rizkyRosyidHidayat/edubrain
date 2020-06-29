@@ -62,27 +62,7 @@ Vue.component('testimoni-section', {
                 {{ item.name }}
                 </span>
               </div>
-            </div>
-            <div class="position-absolute d-flex arrow-navigator">
-              <div class="btn-group">
-                <div 
-                  @click="changingPerson('+')"
-                  class="btn btn-light p-1 rounded-0 arrow-left">
-                  <img 
-                    width="40"
-                    src="icon/arrow_left.svg" 
-                    alt="arrow left"
-                  />
-                </div>
-                <div 
-                  @click="changingPerson('-')"
-                  class="btn btn-light p-1 rounded-0 arrow-right">
-                  <img 
-                    width="40"
-                    src="icon/arrow_right.svg" 
-                    alt="arrow right"
-                  />
-                </div>
+            
               </div>
             </div>
           </div>
@@ -93,77 +73,78 @@ Vue.component('testimoni-section', {
   `,
   data: () => ({
     person: [
-      { 
-        name: 'Name Person 1', 
+      {  
+        name: 'Rudi Yanto', 
         text: `
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          LoremSS ipsum dolor sit amet consectetur adipisicing elit. 
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis.
+          consectetur in consequuntur debitis. 
+
         `,
-        img: 'testi-1-2.jpg'
+        img: 'rudi.png'
       },
       { 
-        name: 'Name Person 2', 
+        name: 'Livaris Eko Saputro', 
         text: `
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-3.jpg'
+        img: 'livaris.png'
       },
       { 
-        name: 'Name Person 3', 
+        name: 'Fidiawati Khasanah', 
         text: `
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-4.jpg'
+        img: 'pipit.png'
       },
       { 
-        name: 'Name Person 4', 
+        name: 'Thobib Kawakibuz', 
         text: `
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-5.jpg'
+        img: 'thobib.png'
       },
       { 
-        name: 'Name Person 5', 
+        name: 'Amiridzal Jundi', 
         text: `
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-1.jpg'
+        img: 'rizal.png'
       },
       { 
-        name: 'Name Person 6', 
+        name: 'Sari Mardianto', 
         text: `
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-6.jpg'
+        img: 'antok.png'
       },
       { 
-        name: 'Name Person 7', 
+        name: 'Huda', 
         text: `
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-4.jpg'
+        img: 'agus.png'
       },
       { 
-        name: 'Name Person 8', 
+        name: 'Cahyo', 
         text: `
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Incidunt sequi maiores eligendi magni minima tempore corporis, 
           consectetur in consequuntur debitis.
         `,
-        img: 'testi-1-5.jpg'
+        img: 'cahyo.png'
       }
     ],
     changePerson: 0

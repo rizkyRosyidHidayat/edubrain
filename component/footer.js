@@ -4,9 +4,8 @@ Vue.component('footer-section', {
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-sm-3 col-sm-12">
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Neque quaerat ullam cumque voluptate fugit. Aperiam sit quibusdam.
+          <p class="text-left">
+            Platform Edubrain adalah Aplikasi berbasis web semi-online/full-online, yang dikemas dengan fitur dan analisis terlengkap.
           </p>
           <div class="d-flex">
             <div
@@ -18,9 +17,9 @@ Vue.component('footer-section', {
           </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-sm-3 col-sm-12">
-          <h4 class="font-weight-bold">USEFUL LINK</h4>
+          <h4 class="font-weight-bold">LINK PENTING</h4>
           <div class="row">
-            <div class="col-6">
+            <div class="col-12">
               <ul class="list-link">
                 <li v-for="item in links.col1" :key="item.text">
                   <a href="#" class="text-white">{{ item.text }}</a>
@@ -84,27 +83,20 @@ Vue.component('footer-section', {
     icons: ['facebook.svg', 'instagram.svg', 'twitter.svg'],
     links: {
       col1: [
-        { text: 'Link 1', link: '' },
-        { text: 'Link 2', link: '' },
-        { text: 'Link 3', link: '' },
-        { text: 'Link 4', link: '' },
-        { text: 'Link 5', link: '' },
-      ],
-      col2: [
-        { text: 'Link 1', link: '' },
-        { text: 'Link 2', link: '' },
-        { text: 'Link 3', link: '' },
-        { text: 'Link 4', link: '' },
-        { text: 'Link 5', link: '' },
+        { text: 'AKM Edubrain', link: '' },
+        { text: 'UTBK Edubrain', link: '' },
+        { text: 'UH Edubrain 3', link: '' },
+        { text: 'PTS Edubrain', link: '' },
+        { text: 'PAT Edubrain', link: '' },
       ]
     },
     galery: [
-      'testi-1-2.jpg',
-      'testi-1-2.jpg',
-      'testi-1-2.jpg',
-      'testi-1-2.jpg',
-      'testi-1-2.jpg',
-      'testi-1-2.jpg'
+      'galeri1.png',
+      'galeri2.png',
+      'galeri3.png',
+      'galeri4.png',
+      'galeri5.png',
+      'galeri6.png'
     ],
     contact: [
       {
