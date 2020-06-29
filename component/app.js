@@ -43,11 +43,13 @@ Vue.component('app-section', {
               </p>
             </div>
           </div>
-          <button 
-            data-aos="fade-down" data-aos-delay="300"
-            class="btn btn-lg btn-orange px-5 rounded-pill mt-3 animate-btn-orange mb-5">
-            KIRIM PENAWARAN!
-          </button>
+          <a href=" ">
+            <button 
+              data-aos="fade-down" data-aos-delay="300"
+              class="btn btn-lg btn-orange px-5 rounded-pill mt-3 animate-btn-orange mb-5">
+              KIRIM PENAWARAN!
+            </button>
+          </a>
         </div>
       </div>
     </div>
