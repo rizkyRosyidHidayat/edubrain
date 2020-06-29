@@ -77,7 +77,7 @@ Vue.component('app-section', {
         text: `
           Aplikasi CBT Semi Online/Full Online, untuk pelaksanaan penilaian hasil belajar oleh Satuan Pendidikan.
         `,
-        color: '90deg, #299A9D 0%, #b430a7 51%, #299A9D 100%'
+        color: '90deg, #15c27b 0%, #0349a6 100%'
       },
 
     ]

@@ -19,7 +19,8 @@ Vue.component('testimoni-section', {
             <div class="position-relative circle-testi">            
               <div
                 v-for="(item, i) in person" :key="i"
-                class="testi-image">
+                class="testi-image"
+                :class="{'active': i===changePerson?true:false}">
                 <img 
                   v-if="i < 4"
                   :src="'img/'+item.img" 
@@ -32,7 +33,8 @@ Vue.component('testimoni-section', {
               class="circle-testi circle-testi-2">            
               <div
                 v-for="(item, i) in person" :key="i"
-                class="testi-image">
+                class="testi-image"
+                :class="{'active': i===changePerson?true:false}">
                 <img 
                   v-if="i > 3"
                   :src="'img/'+item.img" 
@@ -61,8 +63,28 @@ Vue.component('testimoni-section', {
                 <span class="text-danger mt-4 d-inline-block">
                 {{ item.name }}
                 </span>
-              </div>
-            
+              </div>                          
+            </div>
+            <div class="position-absolute d-flex arrow-navigator">
+              <div class="btn-group">
+                <div 
+                  @click="changingPerson('-')"
+                  class="btn btn-light p-1 rounded-0 arrow-left">
+                  <img 
+                    width="40"
+                    src="icon/arrow_left.svg" 
+                    alt="arrow left"
+                  />
+                </div>
+                <div 
+                  @click="changingPerson('+')"
+                  class="btn btn-light p-1 rounded-0 arrow-right">
+                  <img 
+                    width="40"
+                    src="icon/arrow_right.svg" 
+                    alt="arrow right"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -92,6 +114,15 @@ Vue.component('testimoni-section', {
         `,
         img: 'livaris.png'
       },
+      // { 
+      //   name: 'Stephani julia', 
+      //   text: `
+      //     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      //     Incidunt sequi maiores eligendi magni minima tempore corporis, 
+      //     consectetur in consequuntur debitis.
+      //   `,
+      //   img: 'testi-1-2.jpg'
+      // },
       { 
         name: 'Fidiawati Khasanah', 
         text: `
@@ -152,16 +183,16 @@ Vue.component('testimoni-section', {
   methods: {
     changingPerson(operator) {
       if (operator === '+') {
-        if (this.changePerson < 8) {
+        if (this.changePerson < this.person.length-1) {
           this.changePerson++
         } else {
           this.changePerson = 0
         }
       } else {
-        if (this.changePerson > -1) {
+        if (this.changePerson > 0) {
           this.changePerson--
         } else {
-          this.changePerson = 8
+          this.changePerson = 7
         }
       }
     }

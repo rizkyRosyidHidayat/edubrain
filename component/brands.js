@@ -1,6 +1,6 @@
 Vue.component('brands-section', {
   template: `
-  <section class="brands py-5 d-none d-md-block">
+  <section class="brands py-4 d-none d-md-block">
     <div class="container overflow-hidden">
       <div class="swiper-container-brands">
         <div class="swiper-wrapper d-flex">

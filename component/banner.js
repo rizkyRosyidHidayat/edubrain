@@ -1,3 +1,5 @@
+import '../component/embed_video.js'
+
 Vue.component('banner-section', {
   template: `
   <section class="banner-section">
@@ -23,8 +25,28 @@ Vue.component('banner-section', {
             <span>HUBUNGI KAMI</span>
           </button>
         </div>
+        <div class="col-6 d-none d-lg-block">
+          <div class="d-flex justify-content-center">
+            <button 
+              type="button" 
+              @click="video=true"
+              class="btn btn-video-play">
+              <img src="img/video-play-icon.svg" alt="icon video play" />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
+
+    <embed-video v-if="video" @visibleVideo="visibleVideo"></embed-video>
   </section>
-  `
+  `,
+  data: () => ({
+    video: false
+  }),
+  methods: {
+    visibleVideo(val) {
+      this.video = val
+    }
+  }
 })
