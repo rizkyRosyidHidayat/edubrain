@@ -7,7 +7,7 @@ html{ scroll-behavior: smooth; }
   transition: top 0.3s ease-in-out;
 }
 .banner-section{
-  background-image: url('../img/banner.jpg');
+  background-image: url('../img/banner5.jpg');
   background-position-x: right;
   background-position-y: -80px;
   background-repeat: no-repeat;
@@ -20,6 +20,7 @@ html{ scroll-behavior: smooth; }
 .btn-video-play{
   position: relative;
   top: -70px;  
+  left: 55px;
 }
 .btn-orange{
   background: linear-gradient(to bottom,#ffa330,#ff9346,#ff8559,#fb7a6a,#f07379);
@@ -232,6 +233,9 @@ html{ scroll-behavior: smooth; }
 .testi-image:nth-child(8){
   left: -25px;
 }
+.testi-image:nth-child(9){
+  display: none;
+}
 .circle-testi-animate{
   animation-name: rotating;
   animation-duration: 4s;
@@ -325,6 +329,11 @@ footer{
   }
   .visible-on-lg{
     display: none;
+  }
+  .btn-video-play{
+    position: relative;
+    top: -130px;  
+    left: 40px;
   }
 }
 @media screen and (max-width: 990px){

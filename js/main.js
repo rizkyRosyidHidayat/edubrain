@@ -47,9 +47,10 @@ mybutton.addEventListener('click', function () {
 })
 
 var swiper = new Swiper('.swiper-container', {
-    navigation: {
-        nextEl: '.arrow-right',
-        prevEl: '.arrow-left',
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+        clickable: false
     },
     loop: true
 })
@@ -59,7 +60,7 @@ var swiper_brand = new Swiper('.swiper-container-brands', {
     spaceBetween: 8,
     loop: true,
     autoplay: {
-        delay: 2000,
+        delay: 2500,
         disableOnInteraction: false,
     },
     pagination: {
@@ -67,7 +68,7 @@ var swiper_brand = new Swiper('.swiper-container-brands', {
         clickable: true,
     },
     breakpoints: {
-        500: {
+        320: {
             slidesPerView: 1,
             spaceBetween: 20,
         },

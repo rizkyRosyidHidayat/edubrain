@@ -10,7 +10,7 @@ Vue.component('testimoni-section', {
             class="position-relative circle-testi-animate">
             <div class="testi-active">
               <img 
-                :src="'img/'+person[changePerson].img" 
+                :src="'img/'+imgPersonActive" 
                 alt="circle"
                 class="rounded-circle testi-image-animate"
                 :key="changePerson"
@@ -19,8 +19,7 @@ Vue.component('testimoni-section', {
             <div class="position-relative circle-testi">            
               <div
                 v-for="(item, i) in person" :key="i"
-                class="testi-image"
-                :class="{'active': i===changePerson?true:false}">
+                class="testi-image">
                 <img 
                   v-if="i < 4"
                   :src="'img/'+item.img" 
@@ -33,8 +32,7 @@ Vue.component('testimoni-section', {
               class="circle-testi circle-testi-2">            
               <div
                 v-for="(item, i) in person" :key="i"
-                class="testi-image"
-                :class="{'active': i===changePerson?true:false}">
+                class="testi-image">
                 <img 
                   v-if="i > 3"
                   :src="'img/'+item.img" 
@@ -64,29 +62,7 @@ Vue.component('testimoni-section', {
                 {{ item.name }}
                 </span>
               </div>                          
-            </div>
-            <div class="position-absolute d-flex arrow-navigator">
-              <div class="btn-group">
-                <div 
-                  @click="changingPerson('-')"
-                  class="btn btn-light p-1 rounded-0 arrow-left">
-                  <img 
-                    width="40"
-                    src="icon/arrow_left.svg" 
-                    alt="arrow left"
-                  />
-                </div>
-                <div 
-                  @click="changingPerson('+')"
-                  class="btn btn-light p-1 rounded-0 arrow-right">
-                  <img 
-                    width="40"
-                    src="icon/arrow_right.svg" 
-                    alt="arrow right"
-                  />
-                </div>
-              </div>
-            </div>
+            </div>            
           </div>
         </div>
       </div>
@@ -98,92 +74,110 @@ Vue.component('testimoni-section', {
       {  
         name: 'Rudi Yanto', 
         text: `
-        Edubrain memberi layanan terbaik & profesional mewujudkan sekolah yang unggul dan berkualitas. Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi. 
+        Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi. 
         `,
         img: 'rudi.png'
       },
       { 
         name: 'Livaris Eko Saputro', 
         text: `
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis.
+          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'livaris.png'
       },
-      // { 
-      //   name: 'Stephani julia', 
-      //   text: `
-      //     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      //     Incidunt sequi maiores eligendi magni minima tempore corporis, 
-      //     consectetur in consequuntur debitis.
-      //   `,
-      //   img: 'testi-1-2.jpg'
-      // },
+      { 
+        name: 'Stephani julia', 
+        text: `
+        Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
+        `,
+        img: 'testi-1-2.jpg'
+      },
       { 
         name: 'Fidiawati Khasanah', 
         text: `
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis.
+          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'pipit.png'
       },
       { 
         name: 'Thobib Kawakibuz', 
         text: `
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis.
+          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'thobib.png'
       },
       { 
         name: 'Amiridzal Jundi', 
         text: `
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis.
+          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'rizal.png'
       },
       { 
         name: 'Sari Mardianto', 
         text: `
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis.
+          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'antok.png'
       },
       { 
         name: 'Huda', 
         text: `
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis.
+          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'agus.png'
       },
       { 
         name: 'Cahyo', 
         text: `
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Incidunt sequi maiores eligendi magni minima tempore corporis, 
-          consectetur in consequuntur debitis.
+          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        yang unggul dan berkualitas. 
+        Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'cahyo.png'
       }
     ],
-    changePerson: 0
+    changePerson: 0,
+    imgPersonActive: ''
   }),
+  mounted() {
+    this.autoplaySlide()
+    this.imgPersonActive = this.person[this.changePerson].img
+  },
+  watch: {
+    imgPersonActive() {
+      this.person[this.changePerson].img = this.person[this.person.length-1].img
+    }
+  },
   methods: {
+    autoplaySlide(){
+      setInterval(() => this.changingPerson('+'), 3300)
+    },
     changingPerson(operator) {
       if (operator === '+') {
         if (this.changePerson < this.person.length-1) {
           this.changePerson++
-        } else {
+          this.person[this.changePerson-1].img = this.imgPersonActive
+          this.imgPersonActive = this.person[this.changePerson].img
+      } else {
           this.changePerson = 0
+          this.imgPersonActive = this.person[this.changePerson].img
         }
       } else {
         if (this.changePerson > 0) {
