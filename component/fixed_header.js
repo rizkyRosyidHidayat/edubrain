@@ -5,7 +5,7 @@ Vue.component('fixed-header', {
       class="navbar navbar-dark navbar-expand-md"
       style="background-image: linear-gradient(to left, #3264f5, #4a54e8, #5b42db, #682ccb, #7202bb) !important">
       <div class="container">
-        <a href="#" class="navbar-brand">
+        <a href="index.html" class="navbar-brand">
           <img 
             src="img/edubrain.png" 
             alt="brand edubrain"
@@ -50,8 +50,8 @@ Vue.component('fixed-header', {
   props: ['active'],
   data: () => ({
     nav: [
-      { text: 'Home', link: '#' },
-      { text: 'Tentang Kami', link: '#' },
+      { text: 'Home', link: 'index.html' },
+      { text: 'Tentang Kami', link: 'tentang.html' },
       { text: 'Layanan', link: '#' }
     ]
   })

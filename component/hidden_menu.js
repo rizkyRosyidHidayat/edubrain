@@ -24,8 +24,8 @@ Vue.component('hidden-menu', {
   props: ['active'],
   data: () => ({
     nav: [
-      { text: 'Home', link: '#' },
-      { text: 'Tentang Kami', link: '#' },
+      { text: 'Home', link: 'index.html' },
+      { text: 'Tentang Kami', link: 'tentang.html' },
       { text: 'Layanan', link: '#' }
     ]
   })
