@@ -49,8 +49,7 @@ mybutton.addEventListener('click', function () {
 var swiper = new Swiper('.swiper-container', {
     autoplay: {
         delay: 3000,
-        disableOnInteraction: true,
-        clickable: false
+        disableOnInteraction: true
     },
     loop: true
 })

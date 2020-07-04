@@ -96,7 +96,7 @@ Vue.component('testimoni-section', {
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'livaris.png'
       },
       { 
         name: 'Fidiawati Khasanah', 

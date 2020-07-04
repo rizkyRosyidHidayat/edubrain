@@ -74,12 +74,12 @@ Vue.component('footer-section', {
       'galeri4.png',
       'galeri5.png',
       'galeri6.png',
-      'galeri1.png',
-      'galeri2.png',
-      'galeri3.png',
-      'galeri4.png',
-      'galeri5.png',
-      'galeri6.png'
+      'galeri7.png',
+      'galeri8.png',
+      'galeri9.png',
+      'galeri10.png',
+      'galeri11.png',
+      'galeri12.png'
     ],
     contact: [
       {
