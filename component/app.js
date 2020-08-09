@@ -16,7 +16,7 @@ Vue.component('app-section', {
               Fitur & Layanan
             </div>
             <h1 class="font-weight-bold mb-5">
-              Platform Edubrain dengan fitur, analisis & benefit terlengkap!
+              Platform Edubrand dengan fitur, analisis & benefit terlengkap!
 
 
             </h1>

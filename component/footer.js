@@ -7,7 +7,7 @@ Vue.component('footer-section', {
       <div class="row">
         <div class="col-lg-3 col-md-12 mb-sm-3 col-sm-12">
           <p class="text-left">
-            Platform Edubrain adalah Aplikasi berbasis web semi-online/full-online, yang dikemas dengan fitur dan analisis terlengkap.
+            Platform Edubrand adalah Aplikasi berbasis web semi-online/full-online, yang dikemas dengan fitur dan analisis terlengkap.
           </p>
           <div class="d-flex">
             <div
@@ -56,7 +56,7 @@ Vue.component('footer-section', {
     <div class="footer-copyright">
       <div class="container">
         <div class="d-flex justify-content-between py-4 mt-5">
-          <div>Copyright &copy; {{ new Date().getUTCFullYear() }} Edubrain [PT.EDU INOVASI INDONESIA]</div>
+          <div>Copyright &copy; {{ new Date().getUTCFullYear() }} PT.EDU INOVASI INDONESIA </div>
           <div>
             <a href="" class="text-white">Help Desk / Privacy Policy</a>
           </div>						
@@ -74,12 +74,12 @@ Vue.component('footer-section', {
       'galeri4.png',
       'galeri5.png',
       'galeri6.png',
-      'galeri1.png',
-      'galeri2.png',
-      'galeri3.png',
-      'galeri4.png',
-      'galeri5.png',
-      'galeri6.png'
+      'galeri7.png',
+      'galeri8.png',
+      'galeri9.png',
+      'galeri10.png',
+      'galeri11.png',
+      'galeri12.png'
     ],
     contact: [
       {
@@ -100,7 +100,7 @@ Vue.component('footer-section', {
         icon: 'mail.svg',
         title: 'EMAIL',
         desc: `
-          admin@edubrain.id
+          admin@edubrand.id
         `
       },
     ],

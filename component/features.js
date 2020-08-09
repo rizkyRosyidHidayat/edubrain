@@ -56,11 +56,11 @@ Vue.component('features-section', {
   }),
 
   mounted() {
-    this.counter('akm', 300)  
-    this.counter('utbk', 300)
-    this.counter('pas', 300)
-    this.counter('pat', 300)
-    this.counter('toeic', 300)
+    this.counter('akm', 1300)  
+    this.counter('utbk', 1800)
+    this.counter('pas', 912)
+    this.counter('pat', 345)
+    this.counter('toeic', 826)
   },
 
   methods: {

@@ -10,7 +10,7 @@ Vue.component('embed-video', {
 						<img src="icon/close.svg" alt="icon close" width="20">
 					</div>
 				</div>
-				<iframe width="100%" src="https://www.youtube.com/embed/BcUf775GFO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="1100" height="619" src="https://www.youtube.com/embed/xCbn1VCRuGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</section>
   `

@@ -52,24 +52,24 @@ Vue.component('faq-section', {
   data: () => ({
     faq: [
       {
-        question: 'Bagaimana cara bekerja sama dalam kegiatan Layanan Edubrain?',
+        question: 'Bagaimana cara bekerja sama dalam kegiatan Layanan Edubrand?',
         answer: `
-        Pihak sekolah dapat menghubungi admin atau call centre Edubrain di website ini. 
-        Admin Edubrain akan menghubungi & mengirimkan proposal kerja sama kegiatan.
+        Pihak sekolah dapat menghubungi admin atau call centre Edubrand di website ini. 
+        Admin Edubrand akan menghubungi & mengirimkan proposal kerja sama kegiatan.
         `,
         active: false
       },
       {
-        question: 'Apa keunggulan Layanan Edubrain, yang bisa meningkatkan mutu pendidikan di sekolah?',
+        question: 'Apa keunggulan Layanan Edubrand yang bisa meningkatkan mutu pendidikan di sekolah?',
         answer: `
-        Beberapa program unggulan Edubrain, antara lain: TryOut AKM, TryOut UTBK, TOEIC, Ujian Satuan Pendidikan.
+        Beberapa program unggulan Edubrand antara lain: TryOut AKM, TryOut UTBK, TOEIC, Ujian Satuan Pendidikan.
         `,
         active: false
       },
       {
-        question: 'Kapan bisa dimulai kegiatan TryOut atau Layanan Edubrain lainnya?',
+        question: 'Kapan bisa dimulai kegiatan TryOut atau Layanan Edubrand lainnya?',
         answer: `
-        Pelaksanaan Kegiatan TryOut atau Layanan Edubrain lainnya, menyesuaikan jadwal & agenda kegiatan sekolah.
+        Pelaksanaan Kegiatan TryOut atau Layanan Edubrand lainnya, menyesuaikan jadwal & agenda kegiatan sekolah.
         `,
         active: false
       }

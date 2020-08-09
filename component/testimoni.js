@@ -47,7 +47,7 @@ Vue.component('testimoni-section', {
           data-aos="fade-down"
           class="col-lg-6 col-md-12">
           <div class="text-danger">
-            Edubrain Core Values
+            Edubrand Core Values
           </div>
           <h1 class="font-weight-bold">
             Joint inspiration, create quality schools
@@ -72,81 +72,81 @@ Vue.component('testimoni-section', {
   data: () => ({
     person: [
       {  
-        name: 'Rudi Yanto', 
+        name: '', 
         text: `
-        Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi. 
         `,
         img: 'rudi.png'
       },
       { 
-        name: 'Livaris Eko Saputro', 
+        name: '', 
         text: `
-          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+          Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'livaris.png'
       },
       { 
-        name: 'Stephani julia', 
+        name: '', 
         text: `
-        Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+        Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
-        img: 'testi-1-2.jpg'
+        img: 'livaris.png'
       },
       { 
-        name: 'Fidiawati Khasanah', 
+        name: '', 
         text: `
-          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+          Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'pipit.png'
       },
       { 
-        name: 'Thobib Kawakibuz', 
+        name: '', 
         text: `
-          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+          Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'thobib.png'
       },
       { 
-        name: 'Amiridzal Jundi', 
+        name: '', 
         text: `
-          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+          Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'rizal.png'
       },
       { 
-        name: 'Sari Mardianto', 
+        name: '', 
         text: `
-          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+          Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'antok.png'
       },
       { 
-        name: 'Huda', 
+        name: '', 
         text: `
-          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+          Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,
         img: 'agus.png'
       },
       { 
-        name: 'Cahyo', 
+        name: '', 
         text: `
-          Edubrain memberi layanan terbaik & profesional mewujudkan sekolah 
+          Edubrand memberi layanan terbaik & profesional mewujudkan sekolah 
         yang unggul dan berkualitas. 
         Bekerja & melayani dengan ikhlas, komitmen dan berdedikasi tinggi.
         `,

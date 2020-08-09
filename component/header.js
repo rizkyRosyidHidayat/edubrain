@@ -5,8 +5,8 @@ Vue.component('header-section', {
       
         <a href="index.html" class="navbar-brand">
           <img 
-            src="img/edubrain.png" 
-            alt="brand edubrain"
+            src="img/edubrand.png" 
+            alt="brand edubrand"
             height="30"
           >
         </a>
@@ -38,7 +38,7 @@ Vue.component('header-section', {
   props: ['navbarType'],
   data: () => ({
     nav: [
-      { text: 'Home', link: 'index.html' },
+      { text: 'Home', link: 'https://edubrand.id' },
       { text: 'Tentang Kami', link: 'tentang.html' },
       { text: 'Layanan', link: '#' }
     ]

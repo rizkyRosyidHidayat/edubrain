@@ -7,7 +7,7 @@ Vue.component('features1-section', {
           data-aos="fade-right" 
           class="col-lg-6 col-sm-12 mb-sm-3">
           <img 
-            src="img/geometrical.PNG" 
+            src="img/geometrical.png" 
             alt="gambar features"
             class="img-fluid"
           >
